@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #606060;
+}
+
+.jC {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.col-1 {
+  flex: 1 0 21%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  color: #107c10;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.65rem;
+  font-weight: bold;
+  margin-right: 1.24rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+.sections {
+  margin-top: 2rem;
+}
+.header {
+  background-color: #3a3a3a;
+  padding: 1.25rem;
+}
+
+.cart {
+  background-color: #107c10;
+  border-radius: 0.5rem;
+  border: 0.1875rem solid #131313;
+  color: #131313;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.35rem;
+  height: 3.4rem;
+  margin-right: 30px;
+  width: 8rem;
+}
+.jC {
+  display: flex;
+  justify-content: center;
+}
+
+.gamingBuddies {
+  margin-top: 1rem;
+}
+.price {
+  margin-bottom: 0.3125rem;
+}
+.welcome {
+  color: #ffd369;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.65rem;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 3rem;
+}
+
+.goShop {
+  background-color: #107c10;
+  border: 0.1875rem solid #131313;
+  border-radius: 1.875rem;
+  color: #131313;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 3.125rem;
+  margin-bottom: 3rem;
+  width: 12.5rem;
+}
+
+.product {
+  background-color: #2c2f33;
+  border: 0.1875rem solid #23272a;
+  border-radius: 0.625rem;
+  color: #ffd369;
+  flex: 1 0 21%;
+  font-family: "Roboto", sans-serif;
+
+  margin-top: 2.8125rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem;
+  text-align: center;
+}
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 0.9375rem;
+}
+.proImage {
+  height: 16.875rem;
+  width: 11.25rem;
+  margin-bottom: 0.9375rem;
+}
+.platform {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.price {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.addToCart {
+  border: 0.125rem solid #ffd369;
+  background-color: #222831;
+  border-radius: 2.5rem;
+  color: #ffd369;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  height: 2.5rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  width: 10.625rem;
+}
+
+.closeBtn {
+  background-color: #ffd369;
+  border: 0.1875rem solid #222831;
+  border-radius: 2.5rem;
+  color: #222831;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.05rem;
+  height: 2.5rem;
+
+  margin-bottom: 0.9375rem;
+  width: 10.625rem;
+}
+
+.about {
+  background-color: #2c2f33;
+  border: 0.1875rem solid #23272a;
+  border-radius: 0.625rem;
+  color: #ffd369;
+  flex: 1 0 21%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-top: 2.8125rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem;
+}
+.github {
+  color: #ffd369;
+}
+.checkout {
+  background-color: #107c10;
+  border: 0.1875rem solid #222831;
+  border-radius: 2.5rem;
+  color: #222831;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.05rem;
+  height: 2.5rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  width: 10.625rem;
+}
+.cartTitle {
+  margin-bottom: 1.5625rem;
+  margin-top: 0.625rem;
+}
+.add {
+  background-color: #0f00ff;
+  border: 0.125rem solid #09009b;
+  border-radius: 0.3125rem;
+  color: #222831;
+  height: 1.875rem;
+  font-size: 1.25rem;
+  width: 2.1875rem;
+}
+.remove {
+  background-color: #ff0000;
+  border: 2px solid #be0000;
+  border-radius: 5px;
+  color: #222831;
+  height: 1.875rem;
+
+  margin-left: 0.625rem;
+  width: 2.1875rem;
+}
+.fE {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bi-cart3 {
+  color: #ffd369;
+  font-size: 2rem;
+}
+.badge {
+  background-color: #107c10;
+  border: none;
+  color: #ffd369;
+
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 768px) {
+  .section {
+    font-size: 1.35rem;
+    margin-right: 0.6rem;
+  }
+  .cart {
+    border: 2px solid #334756;
+    font-size: 1.1rem;
+
+    height: 40px;
+    width: 60px;
+  }
+  .gamingBuddies {
+    margin-top: 3rem;
+    height: "80px";
+    width: "80px";
+  }
+  .welcome {
+    font-size: 1.35rem;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .product {
+    flex: 1 0 42%;
+  }
+}
