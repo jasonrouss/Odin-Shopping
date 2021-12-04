@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Routes>
-          <Route exact path="/home" element={<HomePage />}></Route>
-          <Route exact path="/shop" element={<ShopPage />}></Route>
-          <Route exact path="/about" element={<AboutPage />}></Route>
+        <Routes><Route exact path="https://odinshopping.netlify.app/" element={<HomePage />}></Route>
+          <Route exact path="https://odinshopping.netlify.app/home" element={<HomePage />}></Route>
+          <Route exact path="https://odinshopping.netlify.app/shop" element={<ShopPage />}></Route>
+          <Route exact path="https://odinshopping.netlify.app/about" element={<AboutPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
