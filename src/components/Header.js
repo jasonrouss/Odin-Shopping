@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Main.css";
 
-import Cart from "../components/Cart";
-
 function Header() {
   //Game Logic
 
@@ -10,7 +8,7 @@ function Header() {
     <header>
       <div className="row header">
         <div className="logo">
-          <a href="/home">
+          <a href="/hom">
             <img
               className="bullGaming"
               src="https://cdn.discordapp.com/attachments/901150871927279636/916343508162457650/bull_1.png"
