@@ -8,10 +8,10 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<HomePage />}></Route>
-          <Route exact path="https://jr-odin-shopping.netlify.app/home" element={<HomePage />}></Route>
-          <Route exact path="https://jr-odin-shopping.netlify.app/shop" element={<ShopPage />}></Route>
-          <Route exact path="https://jr-odin-shopping.netlify.app/about" element={<AboutPage />}></Route>
+          <Route  path="/" element={<HomePage />}></Route>
+          <Route  path="https://jr-odin-shopping.netlify.app/home" element={<HomePage />}></Route>
+          <Route  path="https://jr-odin-shopping.netlify.app/shop" element={<ShopPage />}></Route>
+          <Route  path="https://jr-odin-shopping.netlify.app/about" element={<AboutPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
