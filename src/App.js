@@ -9,9 +9,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<HomePage />}></Route>
-          <Route exact path="/home" element={<HomePage />}></Route>
-          <Route exact path="/shop" element={<ShopPage />}></Route>
-          <Route exact path="/about" element={<AboutPage />}></Route>
+          <Route exact path="https://jr-odin-shopping.netlify.app/home" element={<HomePage />}></Route>
+          <Route exact path="https://jr-odin-shopping.netlify.app/shop" element={<ShopPage />}></Route>
+          <Route exact path="https://jr-odin-shopping.netlify.app/about" element={<AboutPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
